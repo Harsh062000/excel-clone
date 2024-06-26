@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="./style.css">
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <title>Excel</title>
+</head>
+
+<body>
+       <div class="page-actions-container">
+              <div class="page-action">Home</div>
+              <div class="page-action">File</div>
+              <div class="page-action">Insert</div>
+              <div class="page-action">Layout</div>
+              <div class="page-action">Help</div>
+       </div>
+       <div class="cellprop-actions-container">
+              <span class="material-icons">
+                     content_copy
+              </span>
+              <span class="material-icons">
+                     content_cut
+              </span>
+              <span class="material-icons">
+                     content_paste
+              </span>
+              <select class="font-family-prop">
+                     <option value="monospace">Monospace</option>
+                     <option value="sans-serif">Sans-Serif</option>
+                     <option value="fantasy">Fantasy</option>
+                     <option value="cursive">Cursive</option>
+
+              </select>
+              <select class="font-size-prop">
+                     <option value="14">14</option>
+                     <option value="16">16</option>
+                     <option value="18">18</option>
+                     <option value="20">20</option>
+
+              </select>
+              <span class="material-icons">
+                     format_bold
+              </span>
+              <span class="material-icons">
+                     format_italic
+              </span>
+              <span class="material-icons">
+                     format_underlined
+              </span>
+              <span class="material-icons">
+                     format_align_left
+              </span>
+              <span class="material-icons">
+                     format_align_center
+              </span>
+              <span class="material-icons">
+                     format_align_right
+              </span>
+       </div>
+       <div class="formula-actions-container">
+              <input type="text" readonly class="address-bar">
+              <img class="formula-icon"
+                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADTElEQVR4nO2ZS0iVQRTHf71rIUhFuSiKKFoIbrLCwBZhm95GD8soROgJURS0qGjVy2zRpoUoREGLMm1XlGm0aV1gVAZBlC7yUVppVH5xYIKPYc7cz/uIueAPZvPNmTNz7syZ+c9cGGecvKQYuA50ASPAIPAM2EmeMBm4AvwGIqVIfdBMBx56AvhXRoE1BMxda8AyK/uATkcw9wiUGsdgJUfKlVn5RIDMB75YA/0JzAG2KYFI8gdHi2OgzaZuIfDHUd9GYJSY5LUHui5mc9GqGwKWERg3HEH0AJMsu0qgEbgELCYwCoBvjkAayDP2Kom8nTyjxRGEJPYs8ogZyrJ6SZ6xUVlWeZcfjUogtQTKNKA7gRD0FcmbpZZfOWfage9GFXSYWdaoBt4A/UCT2THHRG2GQUhpjfmbAFzz2J5yjOGgw06CScxE4FUWAlkV83k6he1v69SvVO42fWMJZK2ZSrv8Ugbxw2H7OOZvvaK77HLH2K8GhhUbWWYZ815xLkpXYwrwzrLvdKjmyOTNCmDAk3NVmQYxV3E+amS7xhHLvsMEV+OZ3ShWZHbPGgG6kiywSelYcsl3Be6xgpbHCWG2op6jWBk2F7Sscl7p7JanTSnwHOg1tvG8waz3yJP8kvBZp03p8GTC9qLDiqxvtz2ByNabdWQ7/qp0KDtcupxQfNaRI4o9v5wv0VNRr/g8So7Yo3T4MQOfhzw/zk3LtihbVwTtl5P3rHTQTu0ods7EeWK+95rNY3m2E/14Gr7KPad2FDv4CpVHjh6zrafFZ6XDpAdUGXDZHGz9lo8Rxbeo3qnmATz+/XC6QczznMDSUSqqPTpLgiozj3quOlu4vjWqIC02KIOQdZuErgSn9v0USy0yy0vEZ9po8vtYwvZ9jraS6FtiNiUJ1LG8i2VEs+J4UcL2TY62Bxx2ZzxB1JuLWUZ8cDh+MYb2BeaeL2v+NbDLY7vZqOMB87z6CKhI2tESIwmks60JEz3psvpvlJrI44O8EKvfrexWMwmMdiURF3jU6VUCZNBzdS10KN6hDEVizuhWApH9/Zzj+34CpVURbFUOPRR/owqOigT3ZikPzON10NSlkAUNCTVVEOwAnprkHjb6qCHE//vGGYfc8xd/pWQdCcwFrwAAAABJRU5ErkJggg==">
+              <input type="text" class="formula-bar">
+       </div>
+       <div class="grid-container">
+              <div class="top-left-dummy-box"></div>
+              <div class="address-col-container"></div>
+              <div class="cells-container">
+                     <div class="address-row-container"></div>
+              </div>
+       </div>
+       <div class="sheet-container">
+              <div class="sheet-add-icon">
+                     <span class="material-icons">
+                            post_add
+                     </span>
+              </div>
+              <div class="sheets-folder-container">
+                     <div class="sheet-folder">Sheet1</div>
+              </div>
+       </div>
+
+       <script src="./script.js"></script>
+</body>
+
+</html>
