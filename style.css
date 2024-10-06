@@ -34,6 +34,10 @@ body {
        margin-right: 1rem;
 }
 
+.cellprop-actions-container>*:hover {
+       cursor: pointer;
+}
+
 .cellprop-actions-container>select {
        border: none;
        border-radius: 3px;
@@ -182,4 +186,19 @@ body {
 
 .row-container {
        display: flex;
+}
+
+.color-prop {
+       position: relative;
+}
+
+/* importent css for heiding element and making it functional */
+
+.color-prop>input {
+       opacity: 0;
+       position: absolute;
+       top: 0;
+       left: 0;
+       height: 100%;
+       width: 100%;
 }
